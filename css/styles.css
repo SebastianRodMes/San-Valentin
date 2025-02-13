@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ebd3e4;
+}
+
+.container img{
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+
+}
+
+.container img:hover{
+    transform: scale(1.2);
+   
+
+}
+
+
+
+#si {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: "Gloria Hallelujah", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+    
+}
+#no {
+    background-color: #ad364a;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: "Gloria Hallelujah", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+    
+}
+
+.respuestas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+    gap: 20%;
+}
+
+#si:hover{
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0, 255, 76, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+
+}
+
+#no:hover{
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(224, 2, 2, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+
+}
+
+.text p{
+    font-family: "Gloria Hallelujah", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.celebracion{
+  
+    background-color: #ebd3e4;
+}
+
+
+#miVideo {
+    width: 70%;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: block;  /* Asegura que sea un bloque para centrarlo */
+    margin: 100px;  /* Centrado horizontal */
+    background-color: #ebd3e4;
+}
+
+#txt{
+    font-family: "Gloria Hallelujah", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    justify-content: center;  /* Centra el texto horizontalmente */
+    align-items: center;      /* Centra el texto verticalmente */
+    text-align: justify;      /* Justifica el texto */
+    flex-direction: row;   /* Asegura que el texto esté en columna */
+    width: 100%;               /* Establece el ancho del contenedor para justificar */
+    background-color: #ebd3e4;
+}
